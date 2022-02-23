@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - BodyFatPredictor
+name: Build and deploy Python app to Azure Web App - BodyFatPredictions
 
 on:
   push:
@@ -57,6 +57,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'BodyFatPredictor'
+          app-name: 'BodyFatPredictions'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0662B98313454E8CADC11833024F485B }}
