@@ -7,6 +7,9 @@ Dataset can be downloaded from [here](https://www.kaggle.com/fedesoriano/body-fa
 
 ![This is an image](https://github.com/alamtariq143/Body-Fat-Prediction/blob/main/6-types-of-body-fat.jpg)
 
+### Procedural Steps
+![This is an image](https://github.com/alamtariq143/Body-Fat-Prediction/blob/main/Steps.jpg)
+
 ### Deployement
 <ol>
 <li>Have an Azure account with an active subscription. <a href="https://azure.microsoft.com/free/?ref=microsoft.com&amp;utm_source=microsoft.com&amp;utm_medium=docs&amp;utm_campaign=visualstudio" data-linktype="external">Create an account for free</a>.</li>
